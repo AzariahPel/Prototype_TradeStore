@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="My Profile" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/><TextView android:id="@+id/tvProfileInfo" android:text="User&#10;Store Manager&#10;user@tradestore.local" android:textSize="18sp" android:background="@drawable/bg_card" android:padding="18dp" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="105dp"/>
+<Switch android:id="@+id/swNotifications" android:text="Notifications" android:checked="true" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Switch android:id="@+id/swBackup" android:text="Local backup when offline" android:checked="true" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/btnLogout" android:text="LOGOUT" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+</LinearLayout></ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="Reports" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/><Button android:id="@+id/btnDaily" android:text="Daily Activity Report" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/btnSales" android:text="Sales Report" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/btnPurchase" android:text="Purchase Report" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/btnSalesOutstanding" android:text="Sales Outstanding" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/btnPurchaseOutstanding" android:text="Purchase Outstanding" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/btnLowStock" android:text="Low Stock Items Report" android:layout_width="match_parent" android:layout_height="52dp"/>
+<Button android:id="@+id/btnPODetails" android:text="Purchase Order Details" android:layout_width="match_parent" android:layout_height="52dp"/>
+<TextView android:text="Today's Sales: K 12,480&#10;Purchases: K 7,250&#10;Transactions: 84&#10;Low stock items: 7" android:background="@drawable/bg_card" android:padding="18dp" android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="120dp"/>
+</LinearLayout></ScrollView>

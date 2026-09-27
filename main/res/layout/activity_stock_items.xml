@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:id="@+id/tvTitle" android:text="Stock Items" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/><EditText android:id="@+id/etSearch" android:hint="Search item / barcode" android:background="@drawable/bg_input" android:padding="14dp" android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/btnAdd" android:text="+ ADD ITEM" android:layout_width="match_parent" android:layout_height="52dp"/>
+<TextView android:text="Barcode   Item             Category      Qty    Price&#10;89410021 Rice 10kg         Grocery       42     K48.00&#10;89410022 Cooking Oil 1L     Grocery       18     K19.50&#10;89410023 Soap Bar           Household     65     K5.00&#10;89410024 USB Cable          Electronics   11     K15.00" android:background="@drawable/bg_card" android:padding="15dp" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="205dp"/>
+<Button android:id="@+id/btnUpdate" android:text="UPDATE SELECTED ITEM" android:layout_width="match_parent" android:layout_height="50dp"/>
+<Button android:id="@+id/btnDelete" android:text="DELETE SELECTED ITEM" android:layout_width="match_parent" android:layout_height="50dp"/>
+</LinearLayout></ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="Purchase Order" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/><Button android:id="@+id/btnNewPO" android:text="+ NEW PURCHASE ORDER" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="54dp"/>
+<TextView android:text="PO-0024   ABC Wholesalers   Pending&#10;PO-0023   City Supplies    Received&#10;PO-0022   Pacific Traders  Received" android:background="@drawable/bg_card" android:padding="16dp" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="145dp"/>
+<TextView android:text="Supplier: ABC Wholesalers&#10;Items: Rice, Cooking Oil, Sugar&#10;Total: K 18,450" android:background="@drawable/bg_card" android:padding="16dp" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="105dp"/>
+</LinearLayout></ScrollView>

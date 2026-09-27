@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="Masters" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/><Button android:id="@+id/btnCustomers" android:text="Customers" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/btnSuppliers" android:text="Suppliers" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/btnCategories" android:text="Stock Categories" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/btnTaxes" android:text="Manage Taxes" android:layout_width="match_parent" android:layout_height="55dp"/>
+</LinearLayout></ScrollView>

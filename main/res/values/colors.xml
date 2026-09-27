@@ -1,0 +1,7 @@
+<resources>
+<color name="primary">#1565C0</color><color name="secondary">#00897B</color>
+<color name="background">#F5F7FA</color><color name="surface">#FFFFFF</color>
+<color name="text_primary">#17202A</color><color name="text_secondary">#667085</color>
+<color name="positive">#16834A</color><color name="negative">#C62828</color>
+<color name="warning">#B26A00</color><color name="divider">#E1E6EC</color>
+</resources>

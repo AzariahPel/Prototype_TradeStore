@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="Manage Users" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/><Button android:id="@+id/btnUserInfo" android:text="User Infor" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/btnAccess" android:text="User Access Management" android:layout_width="match_parent" android:layout_height="55dp"/>
+<TextView android:text="Maria — Cashier&#10;John — Store Manager&#10;Admin — System Administrator" android:background="@drawable/bg_card" android:padding="18dp" android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="120dp"/>
+</LinearLayout></ScrollView>

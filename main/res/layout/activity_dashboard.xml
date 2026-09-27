@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+<ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"><LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="Dashboard" android:textSize="28sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvWelcome" android:text="Welcome" android:textColor="@color/text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvRole" android:text="Role" android:textColor="@color/text_secondary" android:layout_marginTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content"/><TextView android:text="Today's Sales     K 12,480&#10;Low Stock        7 Items&#10;Stock Items       248&#10;Stock Value       K 185,420" android:textSize="20sp" android:background="@drawable/bg_card" android:padding="18dp" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="145dp"/>
+<Button android:id="@+id/btnPOS" android:text="OPEN SALES / BILLING (POS)" android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="54dp"/>
+<TextView android:text="Recent Activity&#10;&#10;09:42 • Sale #1048 completed&#10;09:36 • Stock updated: Rice 10kg&#10;09:20 • Purchase order PO-0024 received" android:background="@drawable/bg_card" android:padding="16dp" android:layout_marginTop="15dp" android:layout_width="match_parent" android:layout_height="145dp"/>
+</LinearLayout></ScrollView>
+<HorizontalScrollView android:background="@color/surface" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="60dp"><LinearLayout android:orientation="horizontal" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+<Button android:id="@+id/navDashboard" android:text="Dashboard" android:layout_width="120dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navStockItems" android:text="Stock Items" android:layout_width="120dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navPurchase" android:text="Purchase Order" android:layout_width="140dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navMasters" android:text="Masters" android:layout_width="100dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navImport" android:text="Import Data" android:layout_width="115dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navReports" android:text="Reports" android:layout_width="95dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navUsers" android:text="Manage Users" android:layout_width="125dp" android:layout_height="match_parent"/>
+<Button android:id="@+id/navProfile" android:text="My Profile" android:layout_width="110dp" android:layout_height="match_parent"/>
+</LinearLayout></HorizontalScrollView></LinearLayout>
